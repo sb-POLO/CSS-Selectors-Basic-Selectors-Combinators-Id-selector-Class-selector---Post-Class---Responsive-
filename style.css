@@ -98,6 +98,9 @@ section {
   border-radius: 5px;
   background-color: white;
 }
+.about-section {
+  margin: auto;
+}
 .education-section {
   margin: auto;
 }
@@ -123,6 +126,7 @@ section {
   padding-bottom: 2rem;
   padding-left: 3rem;
   padding-right: 3rem;
+  text-align: justify;
 }
 .right-content {
   padding-top: 1rem;
@@ -165,6 +169,9 @@ section {
   padding-left: 2.2rem;
   line-height: 2rem;
   list-style: disc;
+}
+.personal-details .icon {
+  padding-top: 1rem;
 }
 @media screen and (max-width: 673px) {
   .main-content {
