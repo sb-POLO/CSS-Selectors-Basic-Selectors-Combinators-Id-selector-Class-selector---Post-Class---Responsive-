@@ -115,19 +115,26 @@ section {
   font-size: 1.2rem;
   font-weight: 700;
   padding: 0.5rem;
+  padding-bottom: 0rem;
   letter-spacing: 1px;
 }
+.right-main-content {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
 .right-content {
-  padding: 0.5rem;
+  padding-top: 1rem;
 }
 .education-details {
   padding-top: 0.5rem;
   display: flex;
 }
 .institution-details {
+  text-align: justify;
   width: 70%;
   margin-right: 1rem;
-  text-align: left;
 }
 .institution {
   width: 30%;
@@ -140,15 +147,15 @@ section {
   display: flex;
 }
 .project-info {
+  text-align: justify;
   width: 70%;
   margin-right: 1rem;
-  text-align: left;
 }
 .project-span {
   width: 30%;
   margin-right: 1rem;
-  text-align: center;
   font-weight: bold;
+  text-align: center;
 }
 .certification-list {
   padding: 0.5rem;
@@ -159,6 +166,9 @@ section {
 .hobbies {
   padding: 0.5rem;
   padding-bottom: 2rem;
+}
+.address {
+  width: 10%;
 }
 @media screen and (max-width: 673px) {
   .main-content {
